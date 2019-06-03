@@ -6,6 +6,7 @@
       <class name="Academy.ListingPage"/>
       <class name="Academy.HomePage"/>
       <class name="Academy.MissinSearch"/>
+      <class name="Academy.PetFound"/>
       <class name="Academy.AppTest"/>
     </classes>
   </test> <!-- Test -->

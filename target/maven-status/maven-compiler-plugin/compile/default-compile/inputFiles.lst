@@ -1,6 +1,8 @@
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/resources/base.java
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/pageObjects/LandingPage.java
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/pageObjects/PetSearch.java
+/Users/charubanjwal/Desktop/pawsSolutions/src/main/java/pageObjects/FoundaPet.java
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/Academy/App.java
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/pageObjects/NewListing.java
+/Users/charubanjwal/Desktop/pawsSolutions/src/main/java/resources/ExtentReporterNG.java
 /Users/charubanjwal/Desktop/pawsSolutions/src/main/java/pageObjects/MissingPetSearch.java

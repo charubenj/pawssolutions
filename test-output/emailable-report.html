@@ -31,21 +31,194 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">3.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">54.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">Academy.MissinSearch</td><td><a href="#m1"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1556425993729</td><td class="numi">3791</td></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.MissinSearch</td><td><a href="#m1"><b>browserClose</b>  </a></td><td class="numi">1</td><td>1556687233151</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Academy.ListingPage</td><td><a href="#m2"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1556687178914</td><td class="numi">34228</td></tr>
+<tr class="failedeven"><td rowspan="1">Academy.HomePage</td><td><a href="#m3"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1556687213147</td><td class="numi">12821</td></tr>
+<tr class="failedodd"><td rowspan="1">Academy.MissinSearch</td><td><a href="#m4"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1556687225971</td><td class="numi">1177</td></tr>
+<tr class="failedeven"><td rowspan="1">Academy.PetFound</td><td><a href="#m5"><b>basePageNavigation</b>  </a></td><td class="numi">1</td><td>1556687227157</td><td class="numi">5784</td></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">Academy.AppTest</td><td><a href="#m6"><b>testApp</b>  </a></td><td class="numi">1</td><td>1556687232945</td><td class="numi">1</td></tr>
 </table>
-<h1>Default test</h1>
-<h2 id="m1">Academy.MissinSearch:basePageNavigation</h2>
+<h1>Test</h1>
+<h2 id="m1">Academy.MissinSearch:browserClose</h2>
+<div style="padding-left:3em">
+<p>null</p>
+Academy.MissinSearch.browserClose(MissinSearch.java:81)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Academy.MissinSearch:basePageNavigation</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
 <tr class="param stripe"><td>Irvine</td>
 <td>92606</td>
 <td>Dog</td>
 </tr>
+<tr><td style="padding-left:3em" colspan="3">
+<p>unknown error: unable to discover open window in chrome
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.13 seconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Charus-MBP&apos;, ip: &apos;fe80:0:0:0:c96:e657:67b:75d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: ChromeDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at resources.base.initializeDriver(base.java:32)
+<br/>at Academy.MissinSearch.basePageNavigation(MissinSearch.java:32)
+<br/>25 lines not shown
+</td></tr>
 </table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Academy.HomePage:basePageNavigation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>los angeles</td>
+<td>90020</td>
+<td>Dog</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;content&apos;]//p[1][1]&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Charus-MBP&apos;, ip: &apos;fe80:0:0:0:c96:e657:67b:75d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/8k/qw5sx15n549...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 7e0d2541d7816a1b6aa4818c3a3461bf
+*** Element info: {Using=xpath, value=//div[@id=&apos;content&apos;]//p[1][1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at pageObjects.PetSearch.searchpopup(PetSearch.java:65)
+<br/>at Academy.HomePage.basePageNavigation(HomePage.java:47)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Academy.PetFound:basePageNavigation</h2>
+<div style="padding-left:3em">
+<p>unknown error: unable to discover open window in chrome
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.68 seconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Charus-MBP&apos;, ip: &apos;fe80:0:0:0:c96:e657:67b:75d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: ChromeDriver</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at resources.base.initializeDriver(base.java:32)
+<br/>at Academy.PetFound.basePageNavigation(PetFound.java:16)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Academy.ListingPage:basePageNavigation</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div/div[2]/div[1]/h5&quot;}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Charus-MBP&apos;, ip: &apos;fe80:0:0:0:c96:e657:67b:75d2%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/8k/qw5sx15n549...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: ff3f0a271d4d86ce2140cec6387c8cd4
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[2]/div[1]/h5}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at pageObjects.NewListing.uploadConfirmation(NewListing.java:81)
+<br/>at Academy.ListingPage.basePageNavigation(ListingPage.java:110)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Academy.AppTest:testApp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

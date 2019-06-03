@@ -5,9 +5,27 @@
     <classes>
       <class name="Academy.MissinSearch">
         <methods>
+          <include name="browserClose"/>
           <include name="basePageNavigation" invocation-numbers="0"/>
         </methods>
       </class> <!-- Academy.MissinSearch -->
+      <class name="Academy.ListingPage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- Academy.ListingPage -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="browserClose"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.PetFound">
+        <methods>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.PetFound -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
